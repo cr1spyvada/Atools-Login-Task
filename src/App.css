@@ -1,0 +1,101 @@
+@import "~antd/dist/antd.css";
+
+:root {
+  --theme_blue: rgb(12, 30, 68);
+}
+
+/* --------- Header --------- */
+.header {
+  padding: 0% 2rem 0.5%;
+  box-shadow: 0px 0px 8px 2px #413f3f3b;
+}
+
+.btn {
+  border-style: none;
+  margin: 0.3rem 0.25rem 0rem;
+  font-size: x-small;
+  width: 10rem;
+}
+
+#trial_btn {
+  background-color: var(--theme_blue);
+}
+#login_btn {
+  background-color: rgb(252, 136, 5);
+}
+
+/* ---------login page--------- */
+.body {
+  display: flex;
+}
+.image-container {
+  width: 100%;
+  height: 100%;
+}
+.image-container > img {
+  width: 100%;
+  height: 100%;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  font-size: 1.5vw;
+  /* max-width: ; */
+  min-width: 40%;
+}
+.login > .title {
+  display: flex;
+  flex-direction: column;
+  margin: 5em auto 2em;
+  width: 65%;
+}
+.login > .title > .welcome {
+  font-size: 3vw;
+  color: var(--theme_blue);
+  font-weight: bold;
+}
+.login > Form {
+  font-size: 1vw;
+  margin: 0 auto;
+  height: auto;
+  width: 90%;
+}
+
+#login2_btn {
+  margin: 0 auto;
+  width: 100%;
+  background-color: var(--theme_blue);
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--theme_blue);
+}
+
+.fp,
+.rp {
+  color: var(--theme_blue);
+  /* border: solid; */
+  height: 100%;
+  padding: 0;
+}
+
+.rp {
+  width: 50%;
+  float: left;
+}
+
+.fp {
+  text-align: end;
+  width: 50%;
+  float: right;
+}
+
+.details {
+  /* border: solid; */
+  width: 100%;
+  height: max-content;
+}
