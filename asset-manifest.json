@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Atools-Login-Task/static/css/main.17b6ee14.css",
+    "main.js": "/Atools-Login-Task/static/js/main.881268de.js",
+    "static/media/bg.png": "/Atools-Login-Task/static/media/bg.239730259e9e1a4dc9b4.png",
+    "index.html": "/Atools-Login-Task/index.html",
+    "main.17b6ee14.css.map": "/Atools-Login-Task/static/css/main.17b6ee14.css.map",
+    "main.881268de.js.map": "/Atools-Login-Task/static/js/main.881268de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17b6ee14.css",
+    "static/js/main.881268de.js"
+  ]
+}
